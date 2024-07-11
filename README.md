@@ -1,6 +1,7 @@
 # How-to-analyse-your-data-in-R
 
 Step 1: Install (only once) and Upload the libraries
+```bash
 # Libraries for data manipulation
 library(plyr) # to split data apart, and puts back together
 library(dplyr) # to manipulate data like select(), mutate()
@@ -19,7 +20,11 @@ library(emmeans)  # to extract outputs of a model
 library(multcompView) # to summarize multiple paired comparisons
 library(multcomp) #  to do multiple comparisons of groups
 library(car) # for leven test
+```bash
+
 Step 2: Upload your data in R
+```bash
 rice <- read.csv('rice.csv', na.strings = "NA") 
 # data reference : https://app.quadstat.net/dataset/r-dataset-package-daag-rice
 rice
+```bash
