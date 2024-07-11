@@ -20,7 +20,9 @@ library(emmeans)  # to extract outputs of a model
 library(multcompView) # to summarize multiple paired comparisons
 library(multcomp) #  to do multiple comparisons of groups
 library(car) # for leven test
-```bash
+
+```
+
 
 Step 2: Upload your data in R
 ```bash
