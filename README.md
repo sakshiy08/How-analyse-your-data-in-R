@@ -1,1 +1,1 @@
-# How-analyse-your-data-in-R
+# How-to-analyse-your-data-in-R
