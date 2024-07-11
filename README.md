@@ -175,4 +175,13 @@ ShootBiomass_annot <- RiceShootBiomass +
 
 ShootBiomass_annot
 ```
-![image 2]()
+![image 2](https://github.com/sakshiy08/How-to-analyse-your-data-in-R/blob/main/Figure%201_Rice%20Shoot%20Biomass.png)
+
+## Step 6: Save the graph
+```bash
+ggsave("Figure 1_Rice Shoot Biomass.png", 
+       device = "png", 
+       ShootBiomass_annot, 
+       height = 19, width = 18.5, units = 'cm', 
+       dpi = 600)
+```
