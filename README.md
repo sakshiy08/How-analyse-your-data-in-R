@@ -66,4 +66,4 @@ RiceShootBiomass<-ggplot(data=rice, aes(x=Treatment, y=ShootDryMass, fill=Variet
 
 RiceShootBiomass
 ```
-!(https://github.com/sakshiy08/How-to-analyse-your-data-in-R/blob/main/Figure%201A.png)
+![cool image](https://github.com/sakshiy08/How-to-analyse-your-data-in-R/blob/main/Figure%201A.png)
