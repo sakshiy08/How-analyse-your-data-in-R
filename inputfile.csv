@@ -12,3 +12,24 @@ SlNo,	Variety,	Treatment,	Block,	PlantNo,	RootDryMass,	ShootDryMass
 11,	wt,	F10,	2,	11,	44,	37
 12,	wt,	F10,	2,	12,	41,	109
 13,	wt,	NH4Cl,1,	1,  12,	45
+14,	wt,	NH4Cl,  1,  2,	20,	60
+15,	wt,	NH4Cl,  1,	3,	21,	87
+16,	wt,	NH4Cl,	1,	4,	15,	57
+17,	wt,	NH4Cl,	1,	5,	5,	26
+18,	wt,	NH4Cl,	1,	6,	18,	78
+19,	wt,	NH4Cl,	2,	7,	18,	45
+20,	wt,	NH4Cl,	2,	8,	7,	40
+21,	wt,	NH4Cl,	2,	9,	9,	44
+22,	wt,	NH4Cl,	2,	10,	6,	32
+23,	wt,	NH4Cl,	2,	11,	13,	55
+24,	wt,	NH4Cl,	2,	12,	7, 34
+25,	wt,	NH4NO3,	1,	1,	12,	71
+26,	wt,	NH4NO3,	1,	2,	18,	78
+27,	wt,	NH4NO3,	1,	3,	17,	87
+28,	wt,	NH4NO3,	1,	4,	23,	80
+29,	wt,	NH4NO3,	1,	5,	21,	92
+30,	wt,	NH4NO3,	1,	6,  23,	129
+31,	wt,	NH4NO3,	2,	7,	14,	48
+32,	wt,	NH4NO3,	2,	8,	14,	60
+33,	wt,	NH4NO3,	2,	9,	12,	46
+34,	wt,	NH4NO3,	2,	10,	23,	74
