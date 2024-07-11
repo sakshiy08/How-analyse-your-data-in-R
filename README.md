@@ -48,8 +48,8 @@ str(rice)
 ##  $ ShootDryMass: int  132 120 108 134 119 125 98 122 114 82 ...
 ```
 
->In this example:
->Variables are SlNo, Variety, Treatment, Block, PlantNo, RootDryMass, and ShootDryMass
->Factors are Variety (‘Two levels’ means we have two varieties) and Treatment (‘three levels’ means we have three treatments)
+>In this example: <br>
+>Variables are SlNo, Variety, Treatment, Block, PlantNo, RootDryMass, and ShootDryMass <br>
+>Factors are Variety (‘Two levels’ means we have two varieties) and Treatment (‘three levels’ means we have three treatments) <br>
 
 
