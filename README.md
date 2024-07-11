@@ -29,4 +29,29 @@ Step 2: Upload your data in R
 rice <- read.csv('rice.csv', na.strings = "NA") 
 # data reference : https://app.quadstat.net/dataset/r-dataset-package-daag-rice
 rice
+```
+
+Check that your data have been read correctly
+For example, are the variables and factors correctly presented in R?
 ```bash
+str(rice)
+```
+
+```bash
+## 'data.frame':    72 obs. of  7 variables:
+##  $ SlNo        : int  1 2 3 4 5 6 7 8 9 10 ...
+##  $ Variety     : Factor w/ 2 levels "ANU843","wt": 2 2 2 2 2 2 2 2 2 2 ...
+##  $ Treatment   : Factor w/ 3 levels "F10","NH4Cl",..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ Block       : int  1 1 1 1 1 1 2 2 2 2 ...
+##  $ PlantNo     : int  1 2 3 4 5 6 7 8 9 10 ...
+##  $ RootDryMass : int  56 66 40 43 55 66 41 67 40 35 ...
+##  $ ShootDryMass: int  132 120 108 134 119 125 98 122 114 82 ...
+```
+
+|In this example:
+
+Variables are SlNo, Variety, Treatment, Block, PlantNo, RootDryMass, and ShootDryMass
+
+Factors are Variety (‘Two levels’ means we have two varieties) and Treatment (‘three levels’ means we have three treatments)
+
+
