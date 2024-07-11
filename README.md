@@ -66,4 +66,4 @@ RiceShootBiomass<-ggplot(data=rice, aes(x=Treatment, y=ShootDryMass, fill=Variet
 
 RiceShootBiomass
 ```
-./images/Figure 1A.png
+./Figure 1A.png
