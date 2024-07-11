@@ -31,7 +31,7 @@ rice <- read.csv('rice.csv', na.strings = "NA")
 rice
 ```
 
-Check that your data have been read correctly
+Check that your data have been read correctly <br>
 For example, are the variables and factors correctly presented in R?
 ```bash
 str(rice)
@@ -48,10 +48,8 @@ str(rice)
 ##  $ ShootDryMass: int  132 120 108 134 119 125 98 122 114 82 ...
 ```
 
-|In this example:
-
-Variables are SlNo, Variety, Treatment, Block, PlantNo, RootDryMass, and ShootDryMass
-
-Factors are Variety (‘Two levels’ means we have two varieties) and Treatment (‘three levels’ means we have three treatments)
+>In this example:
+>Variables are SlNo, Variety, Treatment, Block, PlantNo, RootDryMass, and ShootDryMass
+>Factors are Variety (‘Two levels’ means we have two varieties) and Treatment (‘three levels’ means we have three treatments)
 
 
