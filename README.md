@@ -1,6 +1,6 @@
 # How-to-analyse-your-data-in-R
 
-Step 1: Install (only once) and Upload the libraries
+## Step 1: Install (only once) and Upload the libraries
 ```bash
 # Libraries for data manipulation
 library(plyr) # to split data apart, and puts back together
@@ -24,7 +24,7 @@ library(car) # for leven test
 ```
 
 
-Step 2: Upload your data in R
+## Step 2: Upload your data in R
 ```bash
 rice <- read.csv('rice.csv', na.strings = "NA") 
 # data reference : https://app.quadstat.net/dataset/r-dataset-package-daag-rice
@@ -52,4 +52,18 @@ str(rice)
 >Variables are SlNo, Variety, Treatment, Block, PlantNo, RootDryMass, and ShootDryMass <br>
 >Factors are Variety (‘Two levels’ means we have two varieties) and Treatment (‘three levels’ means we have three treatments) <br>
 
+## Step 3: Visualise your data
+Let’s start with the ‘Shoot Dry Mass’ variable
+```bash
+RiceShootBiomass<-ggplot(data=rice, aes(x=Treatment, y=ShootDryMass, fill=Variety)) +
+  geom_boxplot()+
+  ylab("Shoot Dry Mass (g)")+ 
+  xlab("Treatments")+
+  theme_classic()+ 
+  theme(legend.position="top")+
+  theme( axis.title.x = element_text(color="blue", size=12, face="bold"),
+         axis.title.y = element_text(color="#993333", size=12, face="bold"))
+
+RiceShootBiomass
+```
 
